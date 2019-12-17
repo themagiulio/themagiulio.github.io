@@ -1,0 +1,13 @@
+nav{
+	padding-top: 20px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+footer{
+		padding-top: 150px;
+		text-align: center;
+}
