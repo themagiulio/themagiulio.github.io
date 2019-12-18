@@ -1,42 +1,134 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>giulio.wtf - What The Fuck Is Going On?</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style.css">
-	</head>
-	<body>
-		<div class="container" style="padding-top:20px;">
-			<div class="row">
-				<div class="col">
-					<img src="assets/img/avatar.jpg" alt="Giulio De Matteis" class="rounded-lg" height="200" width="auto">
-					<nav>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<br>
-							<li><a href="projects.html">Projects</a></li>
-							<br>
-							<li><a href="music.html">Music</a></li>
-							<br>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="col-8">
-					<div class="shadow p-3 mb-5 bg-white rounded"><a href="#">giulio.wtf</a> - What The Fuck Is Going On?</div>
-						<div class="card">
-							<div class="card-body">
-								Hi, my name is Giulio De Matteis,<br>
-								I'm 18 years old and I attend the high school in Lecce, Italy.<br>
-								I love chemistry, scientific stuff, history and philosophy. In the next future I would like to study chemistry in Bologna.<br>
-								My interests are: programming, listen and play some crappy punk rock music 🤘 (I'm something of a guitarist). You can find more info about it in the <a href="">music page</a>.<br>
-								Instead, if you are interested in my programming projects you should visit the <a href="">projects page</a>.
-							</div>
-						</div>
-					<footer>
-						&copy; 2019 <a href="https://giulio.wtf">Giulio De Matteis</a>
-					</footer>
-				</div>
-			</div>
-		</div>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>giulio.wtf - What The Fuck Is Going On?</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="text-center text-sm-center text-md-center text-lg-center text-xl-center">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">giulio.wtf - What The Fuck Is Going On?</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Music</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="text-left text-sm-left text-md-left text-lg-left text-xl-left highlight-clean">
+        <div class="container">
+            <div class="text-right text-sm-right text-md-right text-lg-right text-xl-right intro">
+                <h2 class="text-center">Home</h2>
+            </div>
+        </div>
+        <p class="text-center text-sm-center text-md-center text-lg-center text-xl-center border-primary">Hi, my name is Giulio De Matteis,<br>I'm 18 years old and I attend the high school in Lecce, Italy.<br><br> I love chemistry, scientific stuff, history and philosophy. In <br>the next future I would like to study chemistry in Bologna.<br><br>            My interests are: programming, listen and play some crappy punk <br>rock music 🤘 (I'm something of a guitarist). You can find more info <br>about it in the <a href="https://giulio.wtf/index.html">music page</a>.<br><br> Instead, if you are
+            interested in my programming projects you should visit the <a href="https://giulio.wtf/index.html">projects page</a>.<br> <br><br></p>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <a name="projects"></a><h2 class="text-center">Projects </h2>
+                <p class="text-center">I'm currently working on:</p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"></a><img class="img-fluid" src="assets/img/anyshortener.png"></div>
+                        <div class="col">
+                            <h3 class="name">AnyShortener</h3>
+                            <p class="description">A single URL shortener for every situation.<br><br></p><a class="btn btn-primary" role="button" target="_blank" href="https://github.com/themagiulio/AnyShortener">Github repository</a></div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/heartrepo.png"></a></div>
+                        <div class="col">
+                            <h3 class="name">Heart Repo</h3>
+                            <p class="description">A free and open-source repo manager.<br><br><a class="btn btn-primary" role="button" href="https://github.com/heartrepo/heartrepo" target="_blank">Github repository</a><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/pokemon_nemesis.png"><a href="#"></a></div>
+                        <div class="col">
+                            <h3 class="name">Pokémon Nemesis</h3>
+                            <p class="description">I'm part of a team called BioDev Team, we are developing a brand new Pokémon fan game.<br><br> <a class="btn btn-primary" role="button" target="_blank" href="https://pokemonnemesis.altervista.org">Website</a><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="highlight-phone">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h2>Music</h2>
+                        <p>Hey I run a music blog!<br>If you are interested in ska punk, rock, emo and more check it out!</p><a class="btn btn-primary" role="button" href="#">Music Blog</a></div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-none d-md-block iphone-mockup"><img class="device" src="assets/img/iphone.svg">
+                        <div class="screen"><img src="assets/img/photo_2019-12-18_15-07-10.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Projects</h3>
+                        <ul>
+                            <li><a href="https://github.com/themagiulio/AnyShortener" target="_blank">AnyShortener</a></li>
+                            <li><a href="https://github.com/heartrepo/heartrepo" target="_blank">Heart Repo</a></li>
+                            <li><a href="https://pokemonnemesis.altervista.org" target="_blank">Pokémon Nemesis</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Music</h3>
+                        <ul>
+                            <li><a href="#">Music Blog</a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li><a href="https://t.me/themagiulio" target="_blank">t.me/themagiulio</a></li>
+                            <li><a href="mailto:giuliodematteis@icloud.com">giuliodematteis@icloud.com</a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social">
+                        <p class="copyright"><br><br>©&nbsp;2019 Giulio De Matteis</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
