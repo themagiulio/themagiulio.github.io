@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>giulio.wtf - WTF Is Going On?</title>
+  <title>Contact - giulio.wtf</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -43,10 +43,10 @@
       <div class="row align-items-start">
         <div class="col-md-2">
           <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li class="active"><a href="#">Contact</a></li>
           </ul>
         </div>
         <div class="col-md-6 d-none d-md-block  mr-auto">
@@ -81,94 +81,75 @@
   </nav>
 
   <main id="main">
-	<a name="projects"></a>
-    <div class="site-section site-portfolio">
+
+    <div class="site-section pb-0 site-portfolio">
       <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-            <h2>Hey, I'm Giulio De Matteis</h2>
-            <p class="mb-0">Chemical Apprentice &amp; Developer</p>
+
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-6" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p class="mb-0">Hey this form uses Google Forms' technology, so your information will be stored on a spreadsheet on my Drive</p>
           </div>
-          <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".web">Web</a>
-              <a href="#" data-filter=".games">Video Games</a>
-            </div>
-          </div>
+
         </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://heartrepo.github.io" class="item-wrap fancybox" target="_blank">
-              <div class="work-info">
-                <h3>Heart Repo</h3>
-                <span>Web</span>
-              </div>
-              <img class="img-fluid" src="img/img_1.jpg">
-            </a>
-          </div>
-          <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://giulio.wtf/AnyShortener" class="item-wrap fancybox" target="_blank">
-              <div class="work-info">
-                <h3>AnyShortener</h3>
-                <span>Web</span>
-              </div>
-              <img class="img-fluid" src="img/img_2.jpg">
-            </a>
-          </div>
-          <div class="item games col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="https://pokemonnemesis.altervista.org" class="item-wrap fancybox" target="_blank">
-              <div class="work-info">
-                <h3>Pokémon Nemesis</h3>
-                <span>Video Games</span>
-              </div>
-              <img class="img-fluid" src="img/img_3.jpg">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="site-section pt-0">
-      <div class="container">
-		<h2>My favorite aphorisms</h2>
-		<br>
-        <div class="owl-carousel testimonial-carousel">
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+            
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLSdvmtA4glzcVrdXJjgHU6OOqHzv08ssarS1mtqEvVmEGc5nHg/formResponse?" method="POST" target="hidden_iframe" class="php-email-form">
+              
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="entry.1072682677" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="entry.984659475" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="entry.1895015386" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="entry.664501715" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <div class="validate"></div>
+                </div>
+				
+				<div class="col-md-12 mb-3">
+                  <div class="loading">Your message has been sent. Thank you!</div>
+                </div>
+				
+                <div class="col-md-6 form-group">
+                  <input type="submit" class="readmore d-block w-100" value="Send Message">
+                </div>
+              </div>
 
-          <div class="testimonial-wrap">
-            <div class="testimonial">
-              <blockquote>
-                <p>Dum loquimur, fugerit invida<br>
-				   aetas: carpe diem, quam minimum credula postero.</p>
-              </blockquote>
-              <p>&mdash; Quinto Orazio Flacco</p>
-            </div>
+            </form>
+
           </div>
 
-          <div class="testimonial-wrap">
-            <div class="testimonial">
-              <blockquote>
-                <p>When you have excluded the impossible, whatever remains, however improbable, must be the truth.</p>
-              </blockquote>
-              <p>&mdash; Arthur Conan Doyle</p>
-            </div>
-          </div>
-		  
-		  <div class="testimonial-wrap">
-            <div class="testimonial">
-              <blockquote>
-                <p>The truth is rarely pure and never simple.<br><br></p>
-              </blockquote>
-              <p>&mdash; Oscar Wilde</p>
-            </div>
+          <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span><a style="color:black;" href="mailto:giuliodematteis@icloud.com">giuliodematteis@icloud.com</a></span>
+              </li>
+            </ul>
           </div>
 
         </div>
 
       </div>
+
     </div>
   </main>
-  <footer class="footer" role="contentinfo">
+
+  <footer class="footer mt-5 pt-5" role="contentinfo">
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
@@ -185,7 +166,7 @@
         </div>
         <div class="col-sm-6 social text-md-right">
           <a href="https://twitter.com/themagiulio" target="_blank"><span class="icofont-twitter"></span></a>
-		  <a href="https://reddit.com/u/themagiulio" target="_blank"><span class="icofont-reddit"></span></a>
+          <a href="https://reddit.com/u/themagiulio" target="_blank"><span class="icofont-reddit"></span></a>
         </div>
       </div>
     </div>

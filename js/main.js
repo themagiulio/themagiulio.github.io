@@ -1,41 +1,67 @@
-var normal = document.getElementById("nav-menu");
-var reverse = document.getElementById("nav-menu-left");
+/*
+* Template Name: MyPortfolio
+* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+* License: https://bootstrapmade.com/license/
+*/
 
-var icon = normal !== null ? normal : reverse;
+(function ($) {
+  "use strict";
 
-// Toggle the "menu-open" % "menu-opn-left" classes
-function toggle() {
-	  var navRight = document.getElementById("nav");
-	  var navLeft = document.getElementById("nav-left");
-	  var nav = navRight !== null ? navRight : navLeft;
+  var burgerMenu = function() {
+	  $('.burger').click(function(e) {
+	  	$(window).scrollTop(0);
+	    if(!$('.burger').hasClass('active'))
+	      $('.burger').addClass('active');
+	    else
+	      $('.burger').removeClass('active');
+	  });
+  }
+  burgerMenu();
 
-	  var button = document.getElementById("menu");
-	  var site = document.getElementById("wrap");
+  var siteIstotope = function() {
+	  var $container = $('#portfolio-grid').isotope({
+	    itemSelector : '.item',
+	    isFitWidth: true
+	  });
+
+	  $(window).resize(function(){
+	    $container.isotope({
+	      columnWidth: '.col-sm-3'
+	    });
+	  });
 	  
-	  if (nav.className == "menu-open" || nav.className == "menu-open-left") {
-	  	  nav.className = "";
-	  	  button.className = "";
-	  	  site.className = "";
-	  } else if (reverse !== null) {
-	  	  nav.className += "menu-open-left";
-	  	  button.className += "btn-close";
-	  	  site.className += "fixed";
-	  } else {
-	  	  nav.className += "menu-open";
-	  	  button.className += "btn-close";
-	  	  site.className += "fixed";
-	    }
-	}
+	  $container.isotope({ filter: '*' });
 
-// Ensures backward compatibility with IE old versions
-function menuClick() {
-	if (document.addEventListener && icon !== null) {
-		icon.addEventListener('click', toggle);
-	} else if (document.attachEvent && icon !== null) {
-		icon.attachEvent('onclick', toggle);
-	} else {
-		return;
-	}
-}
+	  $('#filters').on( 'click', 'a', function(e) {
+	  	e.preventDefault();
+	    var filterValue = $(this).attr('data-filter');
+	    $container.isotope({ filter: filterValue });
+	    $('#filters a').removeClass('active');
+	    $(this).addClass('active');
+	  });
+  }
+  $(window).on('load', function () {
+    siteIstotope();
+  });
 
-menuClick();
+
+  var siteOwlCarousel = function() {
+  	$('.testimonial-carousel').owlCarousel({
+		  center: true,
+	    items: 1,
+	    loop: true,
+	    margin: 0,
+	    autoplay: true,
+	    smartSpeed: 1000,
+		});
+  };
+  siteOwlCarousel();
+
+
+})(jQuery);
+
+AOS.init({
+	easing: 'ease',
+	duration: 1000,
+	once: true
+});
