@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/themagiulio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://giulio.wtf
+  * I am themagiulio (https://keybase.io/themagiulio) on keybase.
+  * I have a public key ASDctiFGs5V-IBEO7my6vm6HeNIcSaPZEr8I31zoqX69mQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dcb62146b3957e20110eee6cbabe6e8778d21c49a3d912bf08df5ce8a97ebd990a",
+      "host": "keybase.io",
+      "kid": "0120dcb62146b3957e20110eee6cbabe6e8778d21c49a3d912bf08df5ce8a97ebd990a",
+      "uid": "aed7aff1906ae55839b173d21c976719",
+      "username": "themagiulio"
+    },
+    "merkle_root": {
+      "ctime": 1590410983,
+      "hash": "fda84f52ece5a25b3757dfc14ad89cb090d797c0f770df57e555057cc32597bc0499731898f1a692f4f2baefc755f70ae437ae71f9f6db8ff5f49ef8846b7c90",
+      "hash_meta": "6f51bce0c8ea262464dfc2e5aeaf71cc3cf512da85b58a98aa4d4ae9265e0249",
+      "seqno": 16399941
+    },
+    "service": {
+      "entropy": "1w2Zs5WhMK/JXLvDNbOzVHH/",
+      "hostname": "giulio.wtf",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1590411022,
+  "expire_in": 504576000,
+  "prev": "c6bdb2b454d047b58f76b3079b026ef6a4997c9247ce58032c133fe25064358c",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg3LYhRrOVfiARDu5sur5uh3jSHEmj2RK/CN9c6Kl+vZkKp3BheWxvYWTESpcCBsQgxr2ytFTQR7WPdrMHmwJu9qSZfJJHzlgDLBM/4lBkNYzEIMG2fkBb4WbHkfeb7IKXmuBmXhC72AbXH3B3g1t13xn4AgHCo3NpZ8RATlSUfTgWAlpianXLuz36k4oubaCOFOml7HxDaRdQnzQqpL+zzw1GszLTADg7d3Q/FcAAkmjPKlnqztAh3ScsAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIxnNibqdRwxIvWJTgEl9AF67UflnoMvMpBhHoOJ+Nyio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/themagiulio
+
+==================================================================
