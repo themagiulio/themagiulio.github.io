@@ -6,7 +6,6 @@ export default function AboutMe(){
     return (
         <section id="aboutme" className="text-gray-400 dark:bg-gray-900 body-font">
             <div className="container px-5 py-24 mx-auto">
-                <div className="text-center"><Arrow type="up" class="focus:outline-none mb-10" section={Section.HOME}/></div>
                 <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-700 dark:text-white font-bold text-center">About Me</h1>
                 <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
                     <p className="leading-relaxed text-lg text-gray-700 dark:text-gray-400">
@@ -28,7 +27,6 @@ export default function AboutMe(){
                     <p className="leading-relaxed text-lg mt-2 text-gray-700 dark:text-gray-400">
                         That's it! If you want to contact me, you can do it by sending an email to <a href="mailto:giuliodematteis@icloud.com" className="font-bold underline">giuliodematteis@icloud.com</a> or a message on <a href="https://t.me/themagiulio" target="_blank" className="font-bold underline">Telegram</a>.
                     </p>
-                    <Arrow type="down" class="focus:outline-none mt-20 mb-10" section={Section.PROJECTS}/>
                 </div>
             </div>
         </section>

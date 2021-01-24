@@ -10,7 +10,6 @@ export default function Projects(){
         <section className="text-gray-600 dark:text-gray-400 dark:bg-gray-900 body-font pt-10">
             <div className="container px-5 py-24 mx-auto flex flex-wrap">
                 <div id="projects" className="lg:w-2/3 mx-auto">
-                    <div className="text-center"><Arrow type="up" class="focus:outline-none mt-10 mb-10" section={Section.ABOUTME}/></div>
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-700 dark:text-white font-bold text-center">Projects</h1>
                     <div className="flex flex-wrap w-full bg-gray-100 dark:bg-gray-800 py-32 px-10 relative mb-4">
                         <img alt="gallery" className="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src={aromaticity}/>

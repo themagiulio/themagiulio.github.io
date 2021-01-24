@@ -9,7 +9,7 @@ import Footer from '../Components/Footer'
 import ScrollDirection from '@anakinyuen/scroll-direction'
 
 export default function Home(){
-    const [y, setY] = useState(window.scrollY);
+/*     const [y, setY] = useState(window.scrollY);
 
     const handleNavigation = useCallback(
         e => {
@@ -41,13 +41,14 @@ export default function Home(){
         return () => {
             window.removeEventListener("scroll", handleNavigation);
         };
-    }, [handleNavigation]);
+    }, [handleNavigation]); */
 
     return (
         <div>
             <Hero/>
             <AboutMe/>
             <Projects/>
+            <Footer/>
         </div>
     )
 }
