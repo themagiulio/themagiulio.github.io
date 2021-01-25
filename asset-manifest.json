@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1ebddcb3.chunk.css",
-    "main.js": "/static/js/main.15b80c50.chunk.js",
-    "main.js.map": "/static/js/main.15b80c50.chunk.js.map",
+    "main.js": "/static/js/main.ef32ce45.chunk.js",
+    "main.js.map": "/static/js/main.ef32ce45.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8bd671eb.js",
     "runtime-main.js.map": "/static/js/runtime-main.8bd671eb.js.map",
     "static/js/2.294531f6.chunk.js": "/static/js/2.294531f6.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.1ebddcb3.chunk.css.map": "/static/css/main.1ebddcb3.chunk.css.map",
     "static/js/2.294531f6.chunk.js.LICENSE.txt": "/static/js/2.294531f6.chunk.js.LICENSE.txt",
-    "static/media/aromaticity.4e4f8682.png": "/static/media/aromaticity.4e4f8682.png",
+    "static/media/aromaticity.fddfeb5c.png": "/static/media/aromaticity.fddfeb5c.png",
     "static/media/badge_scienza_e_tecnologia_dei_materiali.ffd2992a.png": "/static/media/badge_scienza_e_tecnologia_dei_materiali.ffd2992a.png",
     "static/media/bandcamp.666a6d4a.webp": "/static/media/bandcamp.666a6d4a.webp",
     "static/media/github-octocat.4413f844.png": "/static/media/github-octocat.4413f844.png",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.8bd671eb.js",
     "static/js/2.294531f6.chunk.js",
     "static/css/main.1ebddcb3.chunk.css",
-    "static/js/main.15b80c50.chunk.js"
+    "static/js/main.ef32ce45.chunk.js"
   ]
 }
